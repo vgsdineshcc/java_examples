@@ -1,0 +1,14 @@
+<div class="container bg light py-5">
+    <h1 class="display-5 fw bold">Welcome to Quiz</h1>
+    <p>This quiz has certain criteria as follows:</p>
+    <p>There are negative marks of about 10 points for each wrong answer</p>
+    <p>Clicking on refresh icon, will move you out of current question of quiz and restart again from first question</p>
+    <p>60 secs is the total time</p>
+    <p>Totally 9 questions</p>
+    <h1 style="font-family:cursive ;text-align: center;">All the Best!!!</h1>
+    <div class="name col-md- my-3">
+        <label for="">Enter your Name:</label>
+        <input #name type="text" class="form-control">
+    </div>
+    <buttton class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start the Quiz</buttton>
+</div>
